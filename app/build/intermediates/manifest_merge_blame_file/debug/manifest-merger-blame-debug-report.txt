@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.muruz.calculator"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->[androidx.wear.tiles:tiles:1.1.0-alpha04] C:\Users\User\.gradle\caches\transforms-3\41c56d4d55b1f68fbd7f3d8f475205a4\transformed\tiles-1.1.0-alpha04\AndroidManifest.xml:9:5-13:15
+12        <intent>
+12-->[androidx.wear.tiles:tiles:1.1.0-alpha04] C:\Users\User\.gradle\caches\transforms-3\41c56d4d55b1f68fbd7f3d8f475205a4\transformed\tiles-1.1.0-alpha04\AndroidManifest.xml:10:9-12:18
+13            <action android:name="androidx.wear.tiles.action.BIND_UPDATE_REQUESTER" />
+13-->[androidx.wear.tiles:tiles:1.1.0-alpha04] C:\Users\User\.gradle\caches\transforms-3\41c56d4d55b1f68fbd7f3d8f475205a4\transformed\tiles-1.1.0-alpha04\AndroidManifest.xml:11:13-87
+13-->[androidx.wear.tiles:tiles:1.1.0-alpha04] C:\Users\User\.gradle\caches\transforms-3\41c56d4d55b1f68fbd7f3d8f475205a4\transformed\tiles-1.1.0-alpha04\AndroidManifest.xml:11:21-84
+14        </intent>
+15    </queries>
+16
+17    <application
+17-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:5:5-26:19
+18        android:allowBackup="true"
+18-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] C:\Users\User\.gradle\caches\transforms-3\c87f9d563db4d8d681643095fb87e199\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.Calculator" >
+29-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:13:9-48
+30        <activity
+30-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:15:9-25:20
+31            android:name="com.muruz.calculator.MainActivity"
+31-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:16:13-41
+32            android:exported="true"
+32-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:17:13-36
+33            android:label="@string/app_name"
+33-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:18:13-45
+34            android:theme="@style/Theme.Calculator" >
+34-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:19:13-52
+35            <intent-filter>
+35-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:20:13-24:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:21:17-69
+36-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:21:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:23:17-77
+38-->D:\GitHub\Calculator\app\src\main\AndroidManifest.xml:23:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->[androidx.compose.ui:ui-tooling:1.0.1] C:\Users\User\.gradle\caches\transforms-3\6dc4f8c961a2809d633232b34169a7ed\transformed\ui-tooling-1.0.1\AndroidManifest.xml:25:9-27:39
+42            android:name="androidx.compose.ui.tooling.PreviewActivity"
+42-->[androidx.compose.ui:ui-tooling:1.0.1] C:\Users\User\.gradle\caches\transforms-3\6dc4f8c961a2809d633232b34169a7ed\transformed\ui-tooling-1.0.1\AndroidManifest.xml:26:13-71
+43            android:exported="true" />
+43-->[androidx.compose.ui:ui-tooling:1.0.1] C:\Users\User\.gradle\caches\transforms-3\6dc4f8c961a2809d633232b34169a7ed\transformed\ui-tooling-1.0.1\AndroidManifest.xml:27:13-36
+44
+45        <provider
+45-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:26:9-34:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:27:13-67
+47            android:authorities="com.muruz.calculator.androidx-startup"
+47-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:28:13-68
+48            android:exported="false" >
+48-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:29:13-37
+49            <meta-data
+49-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+50-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:32:17-85
+51                android:value="androidx.startup" />
+51-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:33:17-49
+52        </provider>
+53
+54        <receiver
+54-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:36:9-45:20
+55            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+55-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:37:13-76
+56            android:directBootAware="false"
+56-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:38:13-44
+57            android:enabled="true"
+57-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:39:13-35
+58            android:exported="true"
+58-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:40:13-36
+59            android:permission="android.permission.DUMP" >
+59-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:41:13-57
+60            <intent-filter>
+60-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:42:13-44:29
+61                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+61-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:43:17-91
+61-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\User\.gradle\caches\transforms-3\817e5833624f8f564ebd2c9d0ae890c6\transformed\profileinstaller-1.0.1\AndroidManifest.xml:43:25-88
+62            </intent-filter>
+63        </receiver>
+64    </application>
+65
+66</manifest>
